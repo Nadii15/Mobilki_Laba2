@@ -1,55 +1,56 @@
 import kotlin.math.atan2
 
 fun main() {
-    //val namber = readln().toInt()
+   //val namber = readln().toInt()
     //println(namber)
-
-    /*print("Введите первое число: ")
-    val n1 = readln().toInt()
-    print("Введите второе число: ")
-    val n2 = readln().toInt()
-    if (n1 > n2){
-        println("первое число больше ")
-    }
-    else if (n1 == n2) {
-        println("равны")
-    }
-    else {
-        println("второе число больше ")
-    }
-    val max = if (n1 > n2) n1 else n2
-    println(max)*/
-    /*val age = readln().toInt()
-    val st = if (age >= 18) "Взрослый" else "ребенок"
-    println(st)*/
-
-    /*val n = 1 until 100
-    val n1 = 100 downTo 1 step 5
-    val s = "a".."z"
-    for(i in n) {
-        println(i)
-    }*/
-
-    /*print("Введите порядковый номер месяца 1-12 ")
-    val n = readln().toInt()
-    var month = when (n) {
-        1 ->  "Январь"
-        2 ->  "Февраль"
-        3 ->  "Март"
-        4 ->  "Апрель"
-        5 -> "май"
-        6 -> "Июнь"
-        7 ->  "Июль"
-        8 ->  "Август"
-        9 ->  "Сентябрь"
-        10 -> "Октябрь"
-        11 -> "Ноябрь"
-        12 ->  "Декабрь"
-        else -> "нет"
-    }
-    if ( n in 1..12){
-        println("Ваш индекс $n оотвествует месяцу $month")
-    }*/
+//
+//    print("Введите первое число: ")
+//    val n1 = readln().toInt()
+//    print("Введите второе число: ")
+//    val n2 = readln().toInt()
+//    if (n1 > n2){
+//        println("первое число больше ")
+//    }
+//    else if (n1 == n2) {
+//        println("равны")
+//    }
+//    else {
+//        println("второе число больше ")
+//    }
+//    val max = if (n1 > n2) n1 else n2
+//    println(max)
+//
+//    val age = readln().toInt()
+//    val st = if (age >= 18) "Взрослый" else "ребенок"
+//    println(st)
+//
+//    val n = 1 until 100
+//    val n1 = 100 downTo 1 step 5
+//    val s = "a".."z"
+//    for(i in n) {
+//        println(i)
+//    }
+//
+//    print("Введите порядковый номер месяца 1-12 ")
+//    val n = readln().toInt()
+//    var month = when (n) {
+//        1 ->  "Январь"
+//        2 ->  "Февраль"
+//        3 ->  "Март"
+//        4 ->  "Апрель"
+//        5 -> "май"
+//        6 -> "Июнь"
+//        7 ->  "Июль"
+//        8 ->  "Август"
+//        9 ->  "Сентябрь"
+//        10 -> "Октябрь"
+//        11 -> "Ноябрь"
+//        12 ->  "Декабрь"
+//        else -> "нет"
+//    }
+//    if ( n in 1..12){
+//        println("Ваш индекс $n оотвествует месяцу $month")
+//    }
 
     //    print("Введите урон: ");
 //    val uron = readln().toInt()
@@ -62,53 +63,53 @@ fun main() {
 //        println(uron)
 //    }
 
-    /*println("Введите level: ")
-    val n = readln().toInt()
-    println("Есть ли у вас вип статус: ")
-    val a = readln().toBoolean()
-    if (n >= 30 && a || n >= 50){
-        println("Доступ разрешен!")}
-    else {
-        println("Доступ запрещен!")
-    }*/
+//    println("Введите level: ")
+//    val n = readln().toInt()
+//    println("Есть ли у вас вип статус: ")
+//    val a = readln().toBoolean()
+//    if (n >= 30 && a || n >= 50){
+//        println("Доступ разрешен!")}
+//    else {
+//        println("Доступ запрещен!")
+//    }
+//
+//    println("Введите level: ")
+//    val n = readln().toInt()
+//    if (n in 1..50) {
+//        println("Мы вошли в дандж")
+//    }
+//    else {
+//        println("Уходи")
+//    }
 
-    /*println("Введите level: ")
-    val n = readln().toInt()
-    if (n in 1..50) {
-        println("Мы вошли в дандж")
-    }
-    else {
-        println("Уходи")
-    }*/
 
+//    val b = "z" .. "a"
+//
+//    val s = 5 until 11
+//    for(i in s) {
+//        println(i)
+//    }
+//    println("-----------------------------------------------------------")
+//    val a = 10 until 50 step 3
+//    for(i in a) {
+//        println(i)
+//    }
 
-    /*val b = "z" .. "a"
-
-    val s = 5 until 11
-    for(i in s) {
-        println(i)
-    }
-    println("-----------------------------------------------------------")
-    val a = 10 until 50 step 3
-    for(i in a) {
-        println(i)
-    }*/
-
-    fun main() {
-        /*repeat(times = 5){
-            println("Начинаем ритуал защиты!")
-            println("Заклинание защиты активировано!")
-            println("Заклинание защиты активировано!")
-            println("Заклинание защиты активировано!")
-            println("Заклинание защиты активировано!")
-            println("Заклинание защиты активировано!")
-            println("Замок защищен!")
-        var index = 0
-            repeat(times = 5) {
-                println("Заклинание защиты активировано! (Шаг ${index + 1})")
-                index ++
-            }
-        }*/
+//    fun main() {
+//        repeat(times = 5){
+//            println("Начинаем ритуал защиты!")
+//            println("Заклинание защиты активировано!")
+//            println("Заклинание защиты активировано!")
+//            println("Заклинание защиты активировано!")
+//            println("Заклинание защиты активировано!")
+//            println("Заклинание защиты активировано!")
+//            println("Замок защищен!")
+//        var index = 0
+//            repeat(times = 5) {
+//                println("Заклинание защиты активировано! (Шаг ${index + 1})")
+//                index ++
+//            }
+//        }
 
     }
     //Домашнее задание
@@ -139,8 +140,67 @@ fun main() {
 //    }
 
     //3
+//    val number = readln().toInt()
+//    if (number in 10..50){
+//        println("Число $number  входит в диапазон от 10 до 50.")
+//    }
+//    else{
+//        println("Число $number НЕ входит в диапазон от 10 до 50.")
+//    }
+
+    //4
+//    print("Введите один символ: ")
+//    val input = readln()
+//    if (input.length != 1) {
+//        println("Введите ровно один символ.")
+//        return
+//    }
+//    val char = input[0]
+//    if (char in '0'..'9') {
+//        println("Цифра")
+//    } else if (char in 'a'..'z' || char in 'A'..'Z') {
+//        println("Буква латинского алфавита")
+//    } else if (char == ' ') {
+//        println("Пробел")
+//    } else {
+//        println("Спецсимвол")
+//    }
+//
+
+         //5
+//        val a = 5
+//        val b = 10
+//        repeat(b) { index ->
+//            val c = index + 1
+//            val f = a * c
+//            println("$a x $c = $f")
+//        }
+//
+
+//          6
+//        val a = listOf("Леон", "Назад в будущее", "Туда", "Мое прекрасное несчастье", "Зависнуть в Палм-Спрингс")
+//        for (i in a) {
+//            println(i)
+//            var c = 0
+//            for (char in i) {
+//                c++
+//            }
+//            println("Длина названия: $c")
+//        }
+
+
+//          7
+//        print("Как вас зовут? ")
+//        val name = readln()
+//        print("Сколько вам лет? ")
+//        val age = readln().toInt()
+//        print("Какой ваш любимый цвет? ")
+//        val color = readln()
+//        println("Привет, $name! Тебе $age лет, и твой любимый цвет $color.")
+//    }
+
+//}
 
 
 
 
-}
